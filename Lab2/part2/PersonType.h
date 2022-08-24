@@ -14,6 +14,9 @@ class personType
     void print() const;
     //Function to output the first name and last name
     //in the form firstName lastName
+    /**\fn Person type function
+    * this is me commenting on void setName
+    /*/
     void setName(string first, string last);
     //Function to set firstName and lastName according to
     //the parameters
@@ -31,6 +34,12 @@ class personType
     //Post: firstName = ""; lastName = "";
     private:
     string firstName; //store the first name
+    /**\var
+    * this variable is pretty cool
+    /*/
     string lastName; //store the last name
+    /**\var
+    * this variable is not as cool
+    /*/
 };
 #endif
