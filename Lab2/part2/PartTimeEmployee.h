@@ -1,5 +1,9 @@
 // header file for the partTimeEmployee
 #include "PersonType.h"
+/** \class Part Time Employee
+ * @brief The part time employee class.
+ * Descriptive Comment.
+ */
 class partTimeEmployee: public personType
 {
     public:

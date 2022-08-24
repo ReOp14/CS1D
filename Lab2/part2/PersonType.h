@@ -4,6 +4,10 @@
 #include <string>
 using namespace std;
 
+/** \class Person Type Class
+ * @brief The base personType class
+ * Descriptive Comment.
+ */
 class personType
 {
     public:
