@@ -1,0 +1,38 @@
+\hypertarget{_person_type_8h_source}{}\doxysection{Person\+Type.\+h}
+\label{_person_type_8h_source}\index{C:/Users/julia/Documents/CS1D/Lab2/part2/PersonType.h@{C:/Users/julia/Documents/CS1D/Lab2/part2/PersonType.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{//inherit2.h header file for the PersonType class}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#ifndef H\_PersonType}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#define H\_PersonType}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{5 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{keyword}{class }\mbox{\hyperlink{classperson_type}{personType}}}
+\DoxyCodeLine{8 \{}
+\DoxyCodeLine{9     \textcolor{keyword}{public}:}
+\DoxyCodeLine{10     \textcolor{keywordtype}{void} print() \textcolor{keyword}{const};}
+\DoxyCodeLine{11     \textcolor{comment}{//Function to output the first name and last name}}
+\DoxyCodeLine{12     \textcolor{comment}{//in the form firstName lastName}}
+\DoxyCodeLine{13     \textcolor{keywordtype}{void} setName(\textcolor{keywordtype}{string} first, \textcolor{keywordtype}{string} last);}
+\DoxyCodeLine{14     \textcolor{comment}{//Function to set firstName and lastName according to}}
+\DoxyCodeLine{15     \textcolor{comment}{//the parameters}}
+\DoxyCodeLine{16     \textcolor{comment}{//Post: firstName = first; lastName = last;}}
+\DoxyCodeLine{17     \textcolor{keywordtype}{void} getName(\textcolor{keywordtype}{string}\& first, \textcolor{keywordtype}{string}\& last);}
+\DoxyCodeLine{18     \textcolor{comment}{//Function to return firstName and lastName via the parameters}}
+\DoxyCodeLine{19     \textcolor{comment}{//Post: first = firstName; last = lastName;}}
+\DoxyCodeLine{20     \mbox{\hyperlink{classperson_type}{personType}}(\textcolor{keywordtype}{string} first, \textcolor{keywordtype}{string} last);}
+\DoxyCodeLine{21     \textcolor{comment}{//Constructor with parameters}}
+\DoxyCodeLine{22     \textcolor{comment}{//Set firstName and lastName according to the parameters}}
+\DoxyCodeLine{23     \textcolor{comment}{//Post: firstName = first; lastName = last;}}
+\DoxyCodeLine{24     \mbox{\hyperlink{classperson_type}{personType}}();}
+\DoxyCodeLine{25     \textcolor{comment}{//Default constructor;}}
+\DoxyCodeLine{26     \textcolor{comment}{//Intialize firstName and lastName to empty string}}
+\DoxyCodeLine{27     \textcolor{comment}{//Post: firstName = "{}"{}; lastName = "{}"{};}}
+\DoxyCodeLine{28     \textcolor{keyword}{private}:}
+\DoxyCodeLine{29     \textcolor{keywordtype}{string} firstName; \textcolor{comment}{//store the first name}}
+\DoxyCodeLine{30     \textcolor{keywordtype}{string} lastName; \textcolor{comment}{//store the last name}}
+\DoxyCodeLine{31 \};}
+\DoxyCodeLine{32 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}
