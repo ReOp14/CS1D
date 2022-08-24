@@ -1,4 +1,4 @@
-// Scott McCloskey
+// Scott McCloskey, Jack Evans
 // Lab 2 - GITHUB & DoxyGen
 // Description: Hello World in C++
 //============================================================
@@ -12,9 +12,9 @@ void hello2Function(string name2);
 
 int main()
 {
-    string name1="your name1";
+    string name1="I'm all jacked up on Mountain Dew";
     hello1Function(name1);
-    string name2="your name2";
+    string name2="Beam me up Scotty";
     hello2Function(name2);
     return 0;
 }
